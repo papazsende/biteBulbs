@@ -1,4 +1,3 @@
-import logoUrl from './assets/logo.png'; // if PNG/JPG
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
