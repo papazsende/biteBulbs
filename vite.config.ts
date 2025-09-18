@@ -4,7 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // IMPORTANT: set this to your repo name (the folder name on GitHub).
 // If you name your repo 'bitebulbs', use '/bitebulbs/'.
-const base = '/bitebulbs/'
+const base = '/biteBulbs/'
 
 export default defineConfig({
   plugins: [

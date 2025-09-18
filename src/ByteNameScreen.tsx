@@ -85,7 +85,6 @@ export function ByteNameScreen({ onExit }: { onExit: () => void }) {
     setRows(prev => prev.map(r => ({ ...r, bits: Array(8).fill(0), locked: false, result: "idle" })));
   }
 
-  const weights = weightArray(msbLeft);
 
   return (
     <div className="min-h-screen w-full bg-[#0c0f13] text-gray-100 p-6 sm:p-10">
